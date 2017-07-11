@@ -7,11 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <label>Enter a user name:
-        <input type="text" name="user-name" value="">
-    </label>
-    <br>
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
+    <form action="http://localhost:5000" enctype="multipart/form-data" method="POST">
+        <label>Enter a user name:
+            <input type="text" name="user-name" value="">
+        </label>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
 </body>
 </html>
